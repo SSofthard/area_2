@@ -1,0 +1,195 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+.container_contact {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#contact_property_property input[type="text"],
+#contact_property input[type="email"],
+#contact_property input[type="tel"],
+#contact_property input[type="url"],
+#contact_property textarea,
+#contact_property button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact_property {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 10px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    position: sticky;
+    top: 10px;
+}
+
+#contact_property h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#contact_property h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact_property input[type="text"],
+#contact_property input[type="email"],
+#contact_property input[type="tel"],
+#contact_property input[type="url"],
+#contact_property textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact_property input[type="text"]:hover,
+#contact_property input[type="email"]:hover,
+#contact_property input[type="tel"]:hover,
+#contact_property input[type="url"]:hover,
+#contact_property textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#contact_property textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact_property button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#contact_property button[type="submit"]:hover {
+    background: #43A047;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact_property button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact_property input:focus,
+#contact_property textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+.card-container {
+    background-color: #fff;
+    padding: 11px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.33);
+    border: none!important;
+}
+
+/*
+@media screen and (min-width: 500px) {
+*/
+  .img-carousel-small{
+    max-width:100%;
+    min-width:100%;
+    overflow:hidden;
+    height:120px;
+    }
+  .img-carousel-big{
+    max-width:100%;
+    min-width:100%;
+    overflow:hidden;
+    height:400px;
+    }
+/*
+  }
+*/
+/*
+@media screen and (max-width: 500px) {
+  .img-carousel-small{
+    max-width:100%;
+    min-width:100%;
+    overflow:hidden;
+    height:100px;
+    }
+  .img-carousel-big{
+    max-width:100%;
+    min-width:100%;
+    overflow:hidden;
+    height:400px;
+    }
+  }
+*/
+
+/*jssor slider loading skin spin css*/
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/*jssor slider bullet skin 057 css*/
+.jssorb057 .i {position:absolute;cursor:pointer;}
+.jssorb057 .i .b {fill:none;stroke:#fff;stroke-width:2000;stroke-miterlimit:10;stroke-opacity:0.4;}
+.jssorb057 .i:hover .b {stroke-opacity:.7;}
+.jssorb057 .iav .b {stroke-opacity: 1;}
+.jssorb057 .i.idn {opacity:.3;}
+
+/*jssor slider arrow skin 073 css*/
+.jssora073 {display:block;position:absolute;cursor:pointer;}
+.jssora073 .a {fill:#ddd;fill-opacity:.7;stroke:#000;stroke-width:160;stroke-miterlimit:10;stroke-opacity:.7;}
+.jssora073:hover {opacity:.8;}
+.jssora073.jssora073dn {opacity:.4;}
+.jssora073.jssora073ds {opacity:.3;pointer-events:none;}
+
+
+
+
