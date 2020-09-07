@@ -132,7 +132,7 @@
                     }  
             });
             $('#image-gallery li').on('click', function () {
-                $(this).addClass('hasIframe').append('<iframe width="420" height="315"  + $(this).attr('data-iframe') + '" frameborder="0" ></iframe>')
+                $(this).addClass('hasIframe').append('<iframe width="420" height="315" target="_parent" src="' + $(this).attr('data-iframe') + '" frameborder="0" allowfullscreen="allowfullscreen"></iframe>')
             });
 		});
     </script>
