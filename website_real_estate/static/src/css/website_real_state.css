@@ -128,9 +128,7 @@ fieldset {
     border: none!important;
 }
 
-/*
-@media screen and (min-width: 500px) {
-*/
+@media screen and (min-width: 1200px) {
   .img-carousel-small{
     max-width:100%;
     min-width:100%;
@@ -143,11 +141,56 @@ fieldset {
     overflow:hidden;
     height:400px;
     }
-/*
+.navigator {
+    cursor:default;
+    position:relative;
+    top:0px;
+    left:0px;
+    width:942px;
+    height:150px;
+    overflow:hidden;
+}
+    
   }
-*/
-/*
-@media screen and (max-width: 500px) {
+  
+
+@media screen and (min-width: 600px) {
+  .img-carousel-small{
+    max-width:100%;
+    min-width:100%;
+    overflow:hidden;
+    height:120px;
+    }
+  .img-carousel-big{
+    max-width:100%;
+    min-width:100%;
+    overflow:hidden;
+    height:400px;
+    }
+.navigator {
+    cursor:default;
+    position:relative;
+    top:0px;
+    left:0px;
+    width:920px;
+    height:150px;
+    overflow:hidden;
+}
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+@media screen and (max-width: 599px) {
   .img-carousel-small{
     max-width:100%;
     min-width:100%;
@@ -158,10 +201,13 @@ fieldset {
     max-width:100%;
     min-width:100%;
     overflow:hidden;
-    height:400px;
+    height:300px;
     }
   }
-*/
+  
+  
+  
+  
 
 /*jssor slider loading skin spin css*/
 .jssorl-009-spin img {
@@ -189,7 +235,6 @@ fieldset {
 .jssora073:hover {opacity:.8;}
 .jssora073.jssora073dn {opacity:.4;}
 .jssora073.jssora073ds {opacity:.3;pointer-events:none;}
-
 
 
 

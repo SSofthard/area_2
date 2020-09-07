@@ -2,6 +2,7 @@ odoo.define('website_sale_product_lightbox.website_sale_product_lightbox', funct
     "use strict";
     
     console.log("hola, que tal")
+  
 
 });
 
